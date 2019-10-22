@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#main{
+    width: 300px;
+    height: 300px;
+    margin-top: 10%;
+    margin-right: 10px;
+    float: right;
+    box-shadow: 1px 1px 1px 1px black;
+    background-color: black;
+    
+    transform: rotate(0deg);
+    transition: margin-right  5s ease-in 0s  ,
+    background-color 7s ease-out 0s,
+    height 5s linear 1s,
+   width 5s linear 1s,
+   border-radius 5s linear 1s,
+   transform  7s linear 0s,
+   box-shadow 7s linear 0s;
+   
+}
+#main:hover{
+    margin-right: 700px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    transform: rotate(180deg);
+    box-shadow: 5px 5px 5px 5px rgb(5, 7, 0) ;
+   
+}
+.car img{
+    width: 200px;
+    height: 100px;
+    margin-left: 0px;
+    /* animation-iteration-count: infinite; */
+    /* transition: margin-left 5s linear 0s; */
+    animation: demo 5s linear 0s infinite;
+  
+}
+/* .car img{
+    margin-left: 800px;
+} */
+@keyframes demo {
+    100%{
+        margin-left: 100%;
+    }
+}
+
+.box{
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: calc(50% - 50px);
+}
+

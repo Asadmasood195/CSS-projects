@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+}
+.main{
+    width: 300px;
+    top: 140px;
+    position: relative;
+    left: -25%;
+    animation: main 7s linear 4s infinite;
+}
+.car{
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+
+}
+@keyframes main{
+    from{
+     margin-left: -30%;
+    }
+    to{
+     margin-left: 125%;
+    }
+} 
+.wheel{
+    position: absolute;
+    width: 40px;
+    top: 70px;
+    left: 49px;  
+    animation: wheel 0.8s linear 4s infinite;
+}
+.road{
+    width: 100vw;
+    height: 370px;
+}
+.wheel1{
+    position: absolute;
+    width: 40px;
+    top: 70px;
+    left: 219px;
+    animation: wheel 0.8s linear 4s infinite;
+}
+@keyframes wheel{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} 
+.flower{
+    position: relative;
+    left: 0%;
+    width: 100%;
+    margin-top: -547px;
+}
+.grass{
+    position: relative;
+    margin-top: -62px;
+    width: 100%;
+    left: 0px;
+    height: 282px;
+}
+.city{
+    width: 102%;
+    height: 33px;
+    position: absolute;
+    left: 0%;
+    top: -31px;
+    height: 266px;
+
+}
+.car2{
+    width: 300px;
+    top: 235px;
+
+    animation: car2  5s linear 0s infinite;
+    position: relative;
+}
+@keyframes car2{
+    from{
+     margin-left: -30%;
+    }
+    to{
+     margin-left: 100%;
+    }
+} 
+
+.parado{
+    width: 100%;
+    position: absolute;
+    /* z-index: 1; */
+}
+.back-wheel{
+    
+    width: 50px;
+    top: 74px;
+    left: 34px;
+    position: absolute;
+    animation: wheels 0.7s linear 0s infinite;
+}
+.front-wheel{
+    width: 50px;
+    top: 74px;
+    left: 210px;
+    position: absolute;
+    animation: wheels 0.7s linear 0s infinite;
+
+}
+@keyframes wheels{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} 
+.moving{
+    /* animation: main 7s linear 4s infinite; */
+    /* animation: wheel 0.8s linear 4s infinite; */
+
+
+}

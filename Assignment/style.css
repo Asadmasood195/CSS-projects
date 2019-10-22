@@ -1,0 +1,17 @@
+/* .wrapper{
+
+} */
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: goldenrod;
+    margin: 15px;
+    border-radius: 10%;
+    display: inline-block;
+    border: 2px solid green;
+}
+.child:hover{
+transform: scale(1.1);
+border-radius: 10%;
+background-color: rgb(5, 231, 107);
+}
