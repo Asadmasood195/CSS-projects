@@ -1,0 +1,530 @@
+*{
+    margin: 0px;
+}
+#top-header{
+    width: 95vw;
+    height: 125px;
+    /* display: inline-block; */
+    display: flex;
+    position: relative;
+    /* border: 1px solid; */
+}
+.zemez-logo{
+    width: 25vw;
+    height: 115px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.bussiness{
+    font-size: x-large;
+    color: #7cbcd6;
+    margin-top: 30px;
+    margin-left: 10vw;
+}
+.free{
+    background-color: #f5f58dd1;
+    height: 25px;
+    width: 56px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-top: 5px;
+    padding-left: 17px;
+}
+.Company{
+    text-transform: capitalize;
+    font-size: x-large;
+    margin-top: 53px;
+    margin-left: -55px;
+
+
+}
+#second-top{
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 80px;
+    /* border: 1px solid; */
+}
+.bussiness1{
+    font-size: larger;
+    color: #7cbcd6;
+    margin-top: 17px;
+    margin-left: 15vw;
+}
+.free1{
+    background-color: #f5f58dd1;
+    height: 22px;
+    width: 49px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-left: 9px;
+    padding-top: 2px;
+    padding-left: 9px;
+}
+.Company1{
+    text-transform: capitalize;
+    font-size: larger;
+    margin-top: 43px;
+    margin-left: -55px;
+
+
+}
+.wrapper{
+    position: absolute;
+    right: 242px;
+    top: 13px;
+}
+#ico2{
+    color: #7cbcd6;
+}
+.para{
+    position: absolute;
+    right: 240px;
+    top: 45px;
+}
+@media screen and (max-width:1230px) and (min-width:100px){
+    .para{
+        display: none;
+    }
+}
+@media screen and (max-width:900px) and (min-width:100px){
+    .wrapper{
+        display: none;
+    }
+}
+#main{
+    position: absolute;
+    width: 85%;
+    height: 1600px;
+    left: 8%;
+    /* background-color: azure; */
+    /* box-shadow: 9px 3px 10px -5px black; */
+    box-shadow: 0 0 5px #999;
+}
+.main-point{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    /* border: 1px solid; */
+}
+.content{
+    color: white;
+    display: flex;
+    font-weight: 600;
+    font-size: medium;
+    margin-left: 165px;
+            /* justify-content: center; */
+    /* padding-top: 11px; */
+
+}
+.content span{
+       /* margin-left: 50px; */
+       width: 60px;
+       /* padding-left: 26px; */
+       height: 24px;
+       padding: 13px 20px;
+       /* padding-top: 10px; */
+       cursor: pointer;
+}
+.content span:hover{
+    background-color: #7cbcd6;
+
+}
+.men{
+width: 300px;
+margin-left: 18%;
+}
+.parent{
+    position: relative;
+}
+.point{
+    font-size: xx-large;
+    color: #7cbcd6;
+    font-weight: bold;
+    position: absolute;
+    top: 55px;
+}
+.boxes{
+position: relative;
+left: 10%;
+/* display: flex; */
+}
+
+.box-child1{
+    width: 195px;
+    height: 200px;
+padding-left: 5px;
+background-color: #79b6d0;
+
+    /* left: 157px; */
+    top: -5px;
+    /* bottom: 0px; */
+  
+    position: absolute;
+}
+.box-child2{
+    width: 195px;
+    height: 200px;
+    left: 200px;
+    top: -5px;
+    padding-left: 5px;
+        background-color: #7cbcd6;
+    position: absolute;
+}
+.box-child3{
+    width: 195px;
+    height: 200px;
+    left: 400px;
+        top: -5px;
+    background-color: #79b6d0;
+    padding-left: 5px;
+    position: absolute;
+}
+.box-child4{
+    width: 195px;
+    height: 200px;
+    left: 600px;
+    top: -5px;
+    padding-left: 5px;
+    background-color: #7cbcd6;
+    position: absolute;
+}
+#icon3,
+#icon4{
+    font-size: xx-large;
+    padding: 10px 4px;
+    color: white;
+}
+#globe{
+    font-size: xx-large;
+    padding: 10px 4px;
+    color: white;
+}
+#lightbulb{
+    font-size: xx-large;
+    padding: 10px 4px;
+    color: white;
+}
+@media screen and (max-width:1270px) and (min-width:100px){
+    .box-child4{
+        display: none;
+    }
+}
+@media screen and (max-width:1000px) and (min-width:100px){
+    .box-child3{
+        display: none;
+    }
+}
+/* @media screen and (max-width:230px) and (min-width:100px){
+    #Four-view{
+        display: none;
+    }
+} */
+#comment,
+#user,
+#calender,
+#like
+{
+    width: 25px;
+    color: white;
+    padding: 18px 20px;
+    height: 28px;
+    background-color: #7cbcd6;
+}
+.para1, 
+.para2,
+ .para3,
+ .para4{
+    padding-top: 43px;
+    position: absolute;
+}
+#Four-view{
+position: relative;
+}
+
+.comment-bar{
+    position: absolute;
+    left: 160px;
+    top: 213px;
+}
+.user-bar{
+    position: absolute;
+    left: 565px;
+    top: 213px;
+}
+.calender-bar{
+    position: absolute;
+    left: 160px;
+    top: 330px;
+}
+.like-bar{
+      position: absolute;
+      left: 565px;
+      top: 330px;
+      }
+      .second-para1,
+      .second-para2,
+      .second-para3,
+      .second-para4{
+          position: absolute;
+          left: 61px;
+          top: 25px;
+          margin-left: 10px;
+          width: 246px;
+      }
+      .pa1,.pa2,.pa3,.pa4{
+        font-size: large;
+        margin-left: 10px;
+        position: absolute;
+        width: 100px;
+
+
+      }
+      @media screen and (max-width:1060px) and (min-width:100px){
+        .user-bar{
+            display: none;
+        }
+    }
+    @media screen and (max-width:1060px) and (min-width:100px){
+        .like-bar{
+            display: none;
+        }
+    }
+    .line{
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        top: 890px;
+      
+        background-color: black;
+    }
+    @media screen and (max-width:1300px) and (min-width:100px){
+       .ch3{
+           display: none;
+           
+        }
+    }
+    @media screen and (max-width:1300px) and (min-width:100px){
+        .ch2{
+            display: none;
+            /* margin-right: 100px; */
+            /* left: 5%;
+            position: absolute; */
+            
+         }
+     }
+    @media screen and (max-width:1300px) and (min-width:100px){
+        #main{
+            box-shadow: unset;
+           
+        }
+    }
+    
+    .three-parent{
+position: relative;
+display: flex;
+flex-wrap: wrap;
+    }
+    .ch1{
+        position: absolute;
+        width: 250px;
+        left: 14%;
+        height: 380px;
+        /* border: 1px solid; */
+        /* display: inline-block; */
+        top: 460px;
+    }
+    .ch2{
+        position: absolute;
+        width: 250px;
+        left: 37%;
+        height: 380px;
+        /* border: 1px solid;  */
+        /* display: inline-block; */
+        top: 460px;
+    }
+    .ch3{
+        position: absolute;
+        width: 250px;
+        left: 60%;
+    height: 380px;
+        /* border: 1px solid; */
+        /* display: inline-block; */
+        top: 460px;
+    }
+    .ft{
+        width: 100%;
+        height: 200px;
+        background-color: rgb(70, 63, 63);
+                border: 1px solid;
+position: absolute;
+bottom: 0px;
+    }
+    #bussiness{
+        padding-top: 20px;
+       
+        width:250px ;
+        height: auto;
+    }
+    .ch2 p{
+        padding-top: 20px;
+ padding-left: 5px;
+    }
+    .tikmark{
+        padding-left: 5px;
+    }
+    .fas {
+        color: #7cbcd6;
+    }
+    #faw{ 
+        color: #fff;
+    }
+    .ch3 .fas{
+        font-size: xx-large;
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    .ch3 p{
+        padding: 10px 5px;
+    }
+    .help-center{
+        font-size: x-large;
+        padding-left: 5px;
+    }
+    #clr{
+        width: 250px;
+        height: 200px;
+        background-color: #7cbcd6;
+    }
+    .far{
+        color: #7cbcd6;
+        font-size: x-large;
+    }
+    #fontawesome1,#fontawesome2,#fontawesome3,#fontawesome4,#fontawesome5,#fontawesome6{
+        color: #7cbcd6;
+        width: 15px;
+        height: 25px;
+        background-color: rgb(41, 32, 32);
+        padding: 3px 12px;
+    }
+    #fontawesome4{
+    padding-right: 20px;
+    margin-left: 84px;
+    padding-right: 20px;
+margin-top: 42px;
+/* padding-right: 10px; */
+margin-right: 15px;
+}
+    #fontawesome1
+    {
+         margin-left: 84px;
+             padding-right: 20px;
+        margin-top: 42px;
+        padding-right: 20px;
+        margin-right: 15px;
+    }
+    #fontawesome2{
+        margin-left: 3px;
+        margin-right: 15px;
+    }
+    #fontawesome5{
+        margin-left: 223px;
+                margin-right: 15px;
+    }
+    #fontawesome6{
+        margin-right: 15px;
+        margin-left: 144px;
+
+    }
+    #fontawesome3{
+        margin-right: 15px;
+        margin-left: 130px;
+        }
+        @media screen and (max-width:980px) and (min-width:100px){
+            .ft{
+                width: 100vw;
+               height:100px ;
+               display: block;
+               
+            }
+        }
+        /* @media screen and (max-width:980px) and (min-width:100px){
+            #fontawesome1, #fontawesome2,#fontawesome3,#fontawesome4,#fontawesome5,#fontawesome6{
+              
+               margin-left: 0px;
+              }
+          } */
+        /* @media screen and (max-width:980px) and (min-width:100px){
+            #fontawesome1{
+              position: absolute;
+              left: 50px;
+              top: 50%;
+             }
+         }
+         @media screen and (max-width:980px) and (min-width:100px){
+           #fontawesome2, #fontawesome3,#fontawesome4,#fontawesome5,#fontawesome6{
+              position: absolute;
+              left: 10px;
+              top: 50%;
+             }
+         }
+         @media screen and (max-width:980px) and (min-width:100px){
+            #fontawesome3{
+               position: absolute;
+               left: 200px;
+               top: 50%;
+              }
+          }
+          @media screen and (max-width:980px) and (min-width:100px){
+            #fontawesome4{
+               position: absolute;
+               left: 250px;
+               top: 50%;
+              }
+          }
+          @media screen and (max-width:980px) and (min-width:100px){
+            #fontawesome5{
+               position: absolute;
+               left: 300px;
+               top: 50%;
+              }
+          }
+          @media screen and (max-width:980px) and (min-width:100px){
+            #fontawesome6{
+               position: absolute;
+               left: 350px;
+               top: 50%;
+              }
+          } */
+         @media screen and (max-width:980px) and (min-width:100px){
+           .remoa,  #fontawesome4,#fontawesome5,#fontawesome6{
+               visibility: hidden;
+               margin: auto;
+
+             }
+            
+         }
+        @media screen and (max-width:1300px) and (min-width:100px){
+            #fontawesome3,#fontawesome6, #fontawesome1,#fontawesome4{
+                margin-left: 10px;
+
+             }
+         }
+        #btn{
+            width: 100px;
+    height: 30px;
+    top: 850px;
+    left: 162px;
+    border: none;
+    position: absolute;
+    border-radius: 7px;
+    background-color: #7cbcd6;
+    color: white;
+    font-weight: bold;
+        }
+        .remoa{
+            
+        }
