@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+#demo ,#demo1{
+    width: 100%;
+    display: block;
+    height: 100px;
+    background-color: black;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+#demo1{
+    background-color: rgb(17, 214, 221);
+
+}
+#demo p{
+    visibility: hidden;
+}
+
+@media screen and (max-width:800px){
+    #demo,#demo1{
+        width: 50% !important;
+        display: table-cell;
+        /* height: 100px !important;
+        width: calc(50% - 7px)  !important;
+        display: inline-block; */
+
+    }
+
+}
+@media print{
+    #demo{
+        background-color: red !important;
+        -webkit-print-color-adjust:exact;
+        border: 2px solid rgb(208, 255, 0) !important;
+        margin: auto;
+        border-radius: 15px !important;
+        visibility: visible !important;
+    }
+}
