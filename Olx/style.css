@@ -1,0 +1,276 @@
+/* .main {
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    width: 100%;
+    height: 30em;
+    opacity: 0.6;
+}
+
+p {
+    background-color: rgb(226, 10, 161);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    padding: 4px 5px;
+    border: 5px solid black;
+    border-block-start-color: aqua;
+
+    border-bottom-color: rgb(104, 196, 12);
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 90px 100px ;
+    border-top-left-radius: 5px;
+} */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#uname {
+    position: fixed;
+    z-index: 10;
+    width: 558px;
+    height: 39px;
+    margin-left: 302px;
+    margin-top: 2px;
+    /* border: 2px solid rgb(189, 187, 187); */
+    border: 1.4px solid #002f34;
+
+    padding-left: 3px;
+
+   
+    box-sizing: border-box;
+}
+#uname:focus{
+    /* background-color: #bbbe09; */
+    border:  1.4px solid rgb(19, 224, 224);
+}
+
+#olx {
+    width: 38px;
+    height: 39px;
+    position: fixed;
+    z-index: 25;
+    left: 28px;
+    top: 8px;
+    opacity: 0.8;
+
+}
+
+
+span {
+    padding: 1px 0px 1px 5px;
+    font-size: small;
+}
+
+strong {
+    padding-left: 10px;
+}
+
+#opt {
+    position: fixed;
+    z-index: 20;
+    margin-top: 2px;
+    border: 1.4px solid #002f34;
+    color: #002f34;
+    width: 215px;
+    height: 39px;
+    padding: 6px 17px;
+    margin-left: 73px;
+}
+#opt:focus{
+    border:  1.4px solid rgb(19, 224, 224);
+}
+.heads{
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+}
+
+.one {
+    width: 182px;
+    height: 250px;
+    border: 1px solid #cab4b4;
+    /* display: inline-block; */
+    float: left;
+    position: relative;
+    /* border-bottom-color: antiquewhite; */
+    margin-top: 1%;
+    cursor: pointer;
+    margin-bottom: 1%;
+    margin-left: 10px;
+    top: 0px;
+    left: 40px;
+}
+.one:hover{
+    background-color: #c3c9ce;
+}
+.fav {
+    position: absolute;
+    left: 158px;
+    top: 8px;
+}
+
+.heart {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 165px;
+    top: 0px;
+}
+.heart:hover{
+    background-color: black;
+    /* position: absolute;  */
+}
+
+img {
+    width: 138px;
+    height: 135px;
+    padding: 10px 20px;
+}
+/* img:hover{
+    border: 1px solid black;
+     /* position: relative; 
+} */
+
+.featured {
+    background-color: rgb(146, 146, 11);
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    width: 60px;
+}
+
+#demo {
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+}
+
+#two {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#main {
+    width: 100%;
+    height: 50px;
+    background-color: #f9f9ee;
+    position: fixed;
+    z-index: 5;
+    top: -6px;
+    margin-top: 6px;
+    padding-top: 8px;
+    padding: 5px;
+}
+
+.rupees {
+    font-size: medium;
+    font-weight: 600;
+    display: block;
+}
+
+.info {
+    width: 90%;
+    position: absolute;
+    height: 33px;
+    bottom: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    /* font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 5px; */
+
+}
+
+.clr {
+    width: 100%;
+    height: 70px;
+    border-left: 4px solid #bbbe09;
+}
+
+.bot1 {
+    font-size: small;
+    font-weight: 300;
+    color: #737070;
+    position: absolute;
+    bottom: 0;
+    /* margin-top: 33px; */
+    /* margin-right: 10px; */
+}
+
+.bot3 {
+    position: relative;
+    bottom: 0;
+    left: 110px;
+    color: #737070;
+    font-size: small;
+    font-weight: 300;
+    /* text-transform: uppercase; */
+
+    /* float: right; */
+    /* margin-right: 6px; */
+}
+h3{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+#decoration{
+
+}
+.rui{
+    width: 20px;
+    height: 35px;
+}
+.srch{
+    width: 31px;
+    position: fixed;
+    z-index: 43;
+    height: 37px;
+    top: 7px;
+    right: 179px;
+    background-color:#2a65ea;
+
+    /* min-width: 48px; */
+    /* height: 48px; */
+    display: flex;
+    cursor: pointer;
+
+}
+#ims{
+    width: 100%;
+    height: 230px;
+    margin-top: 50px;
+    padding: 0;
+}
+.bot2 {
+    font-size: small;
+    position: absolute;
+    bottom: 0px;
+
+    /* margin-top: 35px; */
+}
+/* #botm{
+    width: 100%;
+    height: auto;
+    background-color: blue;
+} */
+
